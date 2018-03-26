@@ -4,3 +4,6 @@ Matlab code for C. Allefeld, H. Atmanspacher, and J. Wackermann, Mental states a
 
 This code attempts to automatically identify metastable states (or "almost invariant sets") as macrostates from data describing a microstate dynamics. The main function is `almostInvariant`; if the data are not already discretized, `discretize` can be used to do this.  `transitionMatrix` and `pccap` are helper functions for `almostInvariant`.  The `example` script demonstrates how to use the functions, and also uses `scatterbox` to plot the sample data.
 
+***
+
+This software is copyrighted © 2009 by Carsten Allefeld and released under the terms of the GNU General Public License, version 3 or later.

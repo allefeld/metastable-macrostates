@@ -20,14 +20,6 @@ function [chi, ci] = pccap(X, lambda, useScaling)
 % conformation dynamics", Linear Algebra Appl. 398 (2005), 161-184
 %
 % Copyright (C) 2009 Carsten Allefeld
-%
-% This program is free software: you can redistribute it and/or modify it
-% under the terms of the GNU General Public License as published by the
-% Free Software Foundation, either version 3 of the License, or (at your
-% option) any later version. This program is distributed in the hope that
-% it will be useful, but without any warranty; without even the implied
-% warranty of merchantability or fitness for a particular purpose. See the
-% GNU General Public License <http://www.gnu.org/licenses/> for more details.
 
 
 % parameters
@@ -150,3 +142,13 @@ for i = 1 : dim
     v = v / sqrt(sum(v .^ 2));
     X0 = X0 - X0 * v' * v;
 end
+
+
+% This program is free software: you can redistribute it and/or modify it
+% under the terms of the GNU General Public License as published by the
+% Free Software Foundation, either version 3 of the License, or (at your
+% option) any later version. This program is distributed in the hope that
+% it will be useful, but without any warranty; without even the implied
+% warranty of merchantability or fitness for a particular purpose. See the
+% GNU General Public License <http://www.gnu.org/licenses/> for more details.
+

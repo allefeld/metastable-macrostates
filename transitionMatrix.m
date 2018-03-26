@@ -17,14 +17,6 @@ function [TO, p] = transitionMatrix(bi, segOff, segLen, reversibilize)
 % TO(i, j) is an estimate of Pr{ bi(t + 1) = i ¦ bi(t) = j }.
 %
 % Copyright (C) 2009 Carsten Allefeld
-%
-% This program is free software: you can redistribute it and/or modify it
-% under the terms of the GNU General Public License as published by the
-% Free Software Foundation, either version 3 of the License, or (at your
-% option) any later version. This program is distributed in the hope that
-% it will be useful, but without any warranty; without even the implied
-% warranty of merchantability or fitness for a particular purpose. See the
-% GNU General Public License <http://www.gnu.org/licenses/> for more details.
 
     fprintf('  transitionMatrix:\n')
 
@@ -66,3 +58,13 @@ function [TO, p] = transitionMatrix(bi, segOff, segLen, reversibilize)
 %         % compute reversibilized transition matrix
 %         TO = (TO + TOit) / 2;
 %     end
+
+
+% This program is free software: you can redistribute it and/or modify it
+% under the terms of the GNU General Public License as published by the
+% Free Software Foundation, either version 3 of the License, or (at your
+% option) any later version. This program is distributed in the hope that
+% it will be useful, but without any warranty; without even the implied
+% warranty of merchantability or fitness for a particular purpose. See the
+% GNU General Public License <http://www.gnu.org/licenses/> for more details.
+

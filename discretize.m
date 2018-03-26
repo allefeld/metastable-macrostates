@@ -16,14 +16,6 @@ function [bi, nBoxes] = discretize(x, nMin)
 % is used for internal recursive calls
 %
 % Copyright (C) 2009 Carsten Allefeld
-%
-% This program is free software: you can redistribute it and/or modify it
-% under the terms of the GNU General Public License as published by the
-% Free Software Foundation, either version 3 of the License, or (at your
-% option) any later version. This program is distributed in the hope that
-% it will be useful, but without any warranty; without even the implied
-% warranty of merchantability or fitness for a particular purpose. See the
-% GNU General Public License <http://www.gnu.org/licenses/> for more details.
 
 
 persistent nic
@@ -75,4 +67,13 @@ if nargout < 2
     fprintf('  %d boxes occupied, occupation numbers: min %d, median %d, max %d.\n', ...
         nBoxes, min(bon), median(bon), max(bon))
 end
+
+
+% This program is free software: you can redistribute it and/or modify it
+% under the terms of the GNU General Public License as published by the
+% Free Software Foundation, either version 3 of the License, or (at your
+% option) any later version. This program is distributed in the hope that
+% it will be useful, but without any warranty; without even the implied
+% warranty of merchantability or fitness for a particular purpose. See the
+% GNU General Public License <http://www.gnu.org/licenses/> for more details.
 

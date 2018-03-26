@@ -1,14 +1,6 @@
 % example: 4-phase system with hierarchical structure
 %
 % Copyright (C) 2009 Carsten Allefeld
-%
-% This program is free software: you can redistribute it and/or modify it
-% under the terms of the GNU General Public License as published by the
-% Free Software Foundation, either version 3 of the License, or (at your
-% option) any later version. This program is distributed in the hope that
-% it will be useful, but without any warranty; without even the implied
-% warranty of merchantability or fitness for a particular purpose. See the
-% GNU General Public License <http://www.gnu.org/licenses/> for more details.
 
 clear
 fprintf('----------\n')
@@ -88,4 +80,13 @@ ylim([0.5, q + 0.5])
 xlabel('time')
 ylabel('macrostate')
 set(gca, 'YTick', 1 : q)
+
+
+% This program is free software: you can redistribute it and/or modify it
+% under the terms of the GNU General Public License as published by the
+% Free Software Foundation, either version 3 of the License, or (at your
+% option) any later version. This program is distributed in the hope that
+% it will be useful, but without any warranty; without even the implied
+% warranty of merchantability or fitness for a particular purpose. See the
+% GNU General Public License <http://www.gnu.org/licenses/> for more details.
 
